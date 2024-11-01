@@ -1,14 +1,20 @@
-ThisBuild / version := "0.1.0-SNAPSHOT"
+// build.sbt
+name := "HW1"
 
-ThisBuild / scalaVersion := "3.3.4"
+version := "0.1" //project version
 
-lazy val root = (project in file("."))
-  .settings(
-    name := "HW1"
-  )
+scalaVersion := "3.3.0"//scala version used
 
+javaHome := Some(file("C:/Program Files/Java/jdk-17"))//setting home directory to java 17 as i getting errors
+//adding scalatest as dependancies
+libraryDependencies ++= Seq(
+  "org.scalatest" %% "scalatest" % "3.2.18" % Test
+)
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.18" % Test
+fork := true
+//compiler option for the right java version
+Compile / javacOptions ++= Seq("--release", "17")
+Test / javacOptions ++= Seq("--release", "17")
 
-fork in Test := true
-javaOptions in Test ++= Seq("-Xmx2G", "-XX:MaxMetaspaceSize=512M")
+Test / fork := true
+Test / javaHome := Some(file("C:/Program Files/Java/jdk-17"))
