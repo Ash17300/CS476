@@ -1,3 +1,12 @@
+# Feedback for Homework 2
+
+## Score: 13.5/15
+
+1. -0.7%: Project failed to build because of incorrect file structure.
+2. -0.8%: <5 unit/integration tests.
+
+---
+
 # Feedback for Homework 1
 
 # Score: 7.5/15
@@ -7,3 +16,5 @@
 3. -1.5%: Failed to run your project using `sbt`; incorrect project structure.
 4. -0.4%: <5 unit/integration tests.
 5. -1%: Incomplete implementation of `Assign`; cannot assign sequence of operations to logic gate variables.
+
+---
