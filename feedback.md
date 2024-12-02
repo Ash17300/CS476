@@ -1,9 +1,8 @@
 # Feedback for Homework 2
 
-## Score: 13.5/15
+## Score: 14.3/15
 
 1. -0.7%: Project failed to build because of incorrect file structure.
-2. -0.8%: <5 unit/integration tests.
 
 ---
 
