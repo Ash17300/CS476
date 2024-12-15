@@ -1,3 +1,12 @@
+# Feedback for Homework 3
+
+## Score: 14/20
+
+1. -4%: Project failed to build and run.
+2. -2%: Insufficient documentation for design and implementation of partial evaluation.
+
+---
+
 # Feedback for Homework 2
 
 ## Score: 13.5/15
